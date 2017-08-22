@@ -1,4 +1,4 @@
-FROM digitalcanvasdesign/php71-fpm:latest
+FROM digitalcanvasdesign/php-fpm:7.1-fpm
 
 LABEL maintainer="Jason Raimondi <jason@raimondi.us>"
 
