@@ -2,5 +2,5 @@ version: "2"
 
 services:
   php-fpm-phalcon:
-    image: digitalcanvasdesign/php71-fpm-phalcon
+    image: digitalcanvasdesign/php-fpm-phalcon
     build: ./
