@@ -1,10 +1,12 @@
-FROM digitalcanvasdesign/php-fpm:7.1.8-fpm
+FROM digitalcanvasdesign/php-fpm:latest
 
 LABEL maintainer="Jason Raimondi <jason@raimondi.us>"
 
 WORKDIR /usr/local/src
 
-ENV PHALCON_URL="https://github.com/phalcon/cphalcon/archive/v3.2.0.tar.gz" \
+ENV PHALCON_VERSION="v3.2.0"
+
+ENV PHALCON_URL="https://github.com/phalcon/cphalcon/archive/$PHALCON_VERSION.tar.gz" \
     RE2C_URL="https://github.com/skvadrik/re2c/releases/download/0.16/re2c-0.16.tar.gz" \
     BUILD_DEPENDENCIES="\
         autoconf \
