@@ -1,0 +1,6 @@
+version: "2"
+
+services:
+  php-fpm-phalcon:
+    image: digitalcanvasdesign/php-fpm-phalcon:3.2-gearman
+    build: ./
