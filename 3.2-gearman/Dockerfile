@@ -4,7 +4,7 @@ LABEL maintainer="Jason Raimondi <jason@raimondi.us>"
 
 WORKDIR /usr/local/src
 
-ENV PHALCON_VERSION="v3.2.0"
+ENV PHALCON_VERSION="v3.2.2"
 
 ENV PHALCON_URL="https://github.com/phalcon/cphalcon/archive/$PHALCON_VERSION.tar.gz" \
     RE2C_URL="https://github.com/skvadrik/re2c/releases/download/0.16/re2c-0.16.tar.gz" \
